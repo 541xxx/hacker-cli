@@ -1,0 +1,37 @@
+{
+  "name": "hacker-cli",
+  "version": "1.0.0",
+  "description": "A cli which contains both Vue and React template.",
+  "main": "index.js",
+  "bin": {
+    "hacker-cli": "cli.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/541xxx/hacker-cli.git"
+  },
+  "author": "Shawn Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/541xxx/hacker-cli/issues"
+  },
+  "homepage": "https://github.com/541xxx/hacker-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "co": "^4.6.0",
+    "commander": "^7.2.0",
+    "compressing": "^1.5.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "mustache": "^4.2.0",
+    "mz-modules": "^2.1.0",
+    "node-tool-utils": "^1.6.0",
+    "ora": "^5.4.0",
+    "shelljs": "^0.8.4",
+    "urllib": "^2.37.1"
+  }
+}
